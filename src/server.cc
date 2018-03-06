@@ -1,7 +1,8 @@
+#include <asio.hpp>
 #include <iostream>
 
 using namespace std;
 
 int main() {
-  cout << "Hello" << endl;
+  asio::io_service service;
 }
